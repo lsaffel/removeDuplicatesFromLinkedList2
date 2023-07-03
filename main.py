@@ -5,6 +5,7 @@ class LinkedList:
 
 
 def removeDuplicatesFromLinkedList(linkedList):
+    # point a and b to the first and second elements of the linked list
     a = linkedList
     b = a.next
 
